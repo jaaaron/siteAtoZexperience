@@ -1,0 +1,46 @@
+// Navigation code here
+body {
+    margin: 0 auto;
+    width: 100vw;
+    nav {
+        img {
+            @media @mobile {
+                width: 50%;
+            }
+        }
+        display: flex;
+        ul {
+            display: flex;
+            justify-content: right;
+            padding-top: 20px;
+            width: 90vw;
+            @media @mobile {
+                width: 70vw;
+            }
+        }
+        li {
+            padding-left: 15px;
+            font-size: 1.4rem;
+        }
+    }
+    .intro {
+        h3 {
+            padding-bottom: 40px;
+            padding-left: 5%;
+        }
+        h1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 8.0rem;
+            @media @tablet {
+                font-size: 8rem - 2rem;
+            }
+            @media @mobile {
+                font-size: 6rem - 2rem;
+            }
+        }
+    }
+
+}
